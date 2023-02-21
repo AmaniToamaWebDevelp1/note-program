@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            display:flex;
+            justify-content: center;
+            height: 79vh;
+            align-items: center;
+        }
+        .shadow-light {
+            box-shadow: #ffff 3px 2px 9px 3px;
+        }
+    </style>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Note project</title>
+
+</head>
+<body class="justify-content-center align-items-center bg-dark">
+    
+ <!--Notes-->
+ <div class="container container-fluid">
+    <div class="row justify-content-center ">
+        <div class="col-md-5">
+            <h1 class="text-white text-center text-capitalize my-5">note program</h1>
+           
+           
+            <div class="card-body bg-secondary shadow-light">
+                <div class=" row justify-content-center "> 
+                    <select class="col-auto mx-3 my-3 "></select>
+                    <button class="col-auto my-3 btn btn-primary">Add</button></div>
+             
+                <textarea placeholder="Write your notes here.." class="card text-capitalize form-text" style="width: 100%;"></textarea>
+                <div class="card-footer text-center  text-white-50 bg-secondary">Amani Toama</div>
+            </div>
+           
+
+           
+        </div>
+    </div>
+  
+ </div>
+ 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
